@@ -1,0 +1,30 @@
+{
+  "name": "bookstore-backend",
+  "version": "1.0.0",
+  "description": "MERN BookStore backend - Express + MongoDB + Vercel API",
+  "author": "Kushal",
+  "license": "ISC",
+  "type": "module",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.3",
+    "serverless-http": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushal9753/BookStoreApp-using-MERN-Stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kushal9753/BookStoreApp-using-MERN-Stack/issues"
+  },
+  "homepage": "https://github.com/Kushal9753/BookStoreApp-using-MERN-Stack#readme"
+}
